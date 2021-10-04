@@ -1,6 +1,6 @@
-const funcCardNum = ['ace', 2, 3, 4, 5, 6, 7, 8, 9, 10, 'Jack', 'Queen', 'King'];
-const funcCardSuit = ['Hearts', 'Spades', 'Clubs', 'Dimonds'];
-const funcDealer= ['Dave', 'Mia', 'Luca', 'Ivy', 'Quinn', 'Atlas','Lucas', 'Alice', 'Skylar', 'Parker'];
+const arrCardNum = ['ace', 2, 3, 4, 5, 6, 7, 8, 9, 10, 'Jack', 'Queen', 'King'];
+const arrCardSuit = ['Hearts', 'Spades', 'Clubs', 'Dimonds'];
+const arrDealer= ['Dave', 'Mia', 'Luca', 'Ivy', 'Quinn', 'Atlas','Lucas', 'Alice', 'Skylar', 'Parker'];
 
 
 const Hand = () => {
@@ -13,4 +13,4 @@ const Hand = () => {
 	return `${dealer} has dealt you the hand: ${card1} & ${card2}`;
 }
 
-console.log(hand)
+console.log(Hand())
